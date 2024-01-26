@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25px; 
+  background-color: #1e76a5;
+background-image: linear-gradient(135deg, #1e76a5 0%, #9599E2 100%);
+  font-family: 'Roboto', sans-serif;
+}
+.left{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.right{
+    font-size: 0.9rem;
+    font-weight: 1000px;
+    justify-content: space-around;  
+}
+.navbar ul {
+    display: flex;
+    /* justify-content: space-around; */
+}
+.navbar ul a{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: rgb(14, 38, 58);
+}
+.navbar ul a:hover{
+        color: #4752d2;
+       /* border: 2px solid black; */
+       color: yellow;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.leftsec{
+    font-size: 30px;
+    /* margin-top: 70px;
+    margin-left: 60px; */
+}
+.leftsec span{
+  background-color: #7e86e1;  
+}
+.rightsec img{
+    /* margin-left: 400px;
+    margin-bottom: 200px; */
+    margin: 50px;
+    width: 200px;
+    height: 150px;
+}
+main .hr1{
+    background: #4752d2;
+    height: 3px;
+    margin:10px 80px;
+}
+.secondSec h1{
+   width: 90px;
+   margin-left: 100px; 
+   background-color: #7e86e1;
+
+}
+.secondSec .box {
+    width: 50vw;
+    height: 2px;
+    margin: 35px 82px;
+    /* display: flex; */
+    background: #4752d2;
+}
+/* .secondSec .box2{
+    display: flex;
+    height: 100px;
+    width: 500px;
+    
+    margin: 0 80px;
+}*/
+.secondSec .vertical{
+    width: 2px;
+    height: 80px;
+    margin: -13px 100px; 
+    background: #2533c9;
+   
+}
+.vertical_title{
+    font-size: 12px;
+    position: relative;
+    bottom: -76px;
+    left: -20px;
+    width: 80px;
+    background: #7e86e1;
+    border-radius: 15%;
+    
+}
+main .hr2{
+    margin:110px 80px ;
+    background: #4752d2;
+    height: 3px;
+}
+ .thirdsec h1{
+    width: 100px;
+    margin: -95px 0px 200px 100px;
+    background: #7e86e1;
+ }
+ .thirdsec h4{
+    width: 380px;
+    margin: -180px 0px 20px 100px;
+    /* background: #7e86e1; */
+ }
+ .thirdsec p{
+    font-size:7px;
+    margin: -14px 23px -6px 31px;
+    padding: 0px 73px 27px;
+ }
+
+ 
